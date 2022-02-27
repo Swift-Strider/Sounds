@@ -8,7 +8,7 @@
     "scripts": {
         "generate_sounds": [
             "curl https://aka.ms/resourcepacktemplate -L > pack.zip",
-            "tools/generate_sounds.php"
+            "php tools/generate_sounds.php"
         ]
     }
 }

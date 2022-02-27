@@ -55,7 +55,8 @@ function soundNames(): array {
             if (!isset($exceptions[$name])
                 && preg_match('/\d$/', $name)
             ) {
-                if (!preg_match('/1^/', $name)) {
+                if (!preg_match('/1$/', $name)) {
+                    echo "$name\n";
                     continue;
                 }
                 // This strips the "1". Ex: step.stem1 -> step.stem
@@ -102,8 +103,6 @@ fwrite($vanillaSounds, <<<EOT
 declare(strict_types=1);
 
 namespace DiamondStrider1\Sounds;
-
-use pocketmine\world\sound\Sound;
 
 final class VanillaSounds
 {
