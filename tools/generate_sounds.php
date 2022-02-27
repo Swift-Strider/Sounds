@@ -56,7 +56,6 @@ function soundNames(): array {
                 && preg_match('/\d$/', $name)
             ) {
                 if (!preg_match('/1$/', $name)) {
-                    echo "$name\n";
                     continue;
                 }
                 // This strips the "1". Ex: step.stem1 -> step.stem
