@@ -67,6 +67,9 @@ function soundNames(): array {
     return $return;
 }
 
+$sounds = soundNames();
+$soundCount = count($sounds);
+
 $soundIds = fopen(__DIR__ . "/../src/DiamondStrider1/Sounds/SoundIds.php", "w");
 fwrite($soundIds, <<<EOT
 <?php
@@ -79,7 +82,7 @@ final class SoundIds
 {
 
 EOT);
-foreach (soundNames() as $sound) {
+foreach ($sounds as $sound) {
     $constSound = soundNameToConstCase($sound);
     fwrite($soundIds, <<<EOT
         public const $constSound = "$sound";
@@ -92,3 +95,31 @@ fwrite($soundIds, <<<EOT
 EOT);
 fclose($soundIds);
 
+$vanillaSounds = fopen(__DIR__ . "/../src/DiamondStrider1/Sounds/VanillaSounds.php", "w");
+fwrite($vanillaSounds, <<<EOT
+<?php
+
+declare(strict_types=1);
+
+namespace DiamondStrider1\Sounds;
+
+use pocketmine\world\sound\Sound;
+
+final class VanillaSounds
+{
+
+EOT);
+foreach ($sounds as $i => $sound) {
+    $constSound = soundNameToConstCase($sound);
+    fwrite($vanillaSounds, <<<EOT
+        public static function $constSound(): InternalSound {
+            return new InternalSound(SoundIds::$constSound);
+        }
+
+    EOT . ($i === $soundCount - 1 ? "" : "\n"));
+}
+fwrite($vanillaSounds, <<<EOT
+}
+
+EOT);
+fclose($vanillaSounds);
