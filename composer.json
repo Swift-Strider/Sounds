@@ -1,6 +1,10 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
 
+    "name": "diamondstrider1/sounds",
+    "type": "library",
+    "license": "MIT",
+
     "require": {
         "pocketmine/pocketmine-mp": "4.0.0"
     },
