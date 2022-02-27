@@ -1,0 +1,14 @@
+{
+    "$schema": "https://getcomposer.org/schema.json",
+
+    "require": {
+        "pocketmine/pocketmine-mp": "4.0.0"
+    },
+
+    "scripts": {
+        "generate_sounds": [
+            "curl https://aka.ms/resourcepacktemplate -L > pack.zip",
+            "tools/generate_sounds.php"
+        ]
+    }
+}
