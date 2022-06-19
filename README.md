@@ -4,12 +4,14 @@ This library adds sound APIs for PocketMine-MP plugins. Sounds from Minecraft ve
 
 # Usage
 
-Sounds has an API similar to PocketMine's item and block APIs. You can get an `InternalSound` (which implements PocketMine's Sound interface) by using the `VanillaSounds::XXX()` methods.
+Sounds has an API similar to PocketMine's item and block APIs. You can get an `SoundImpl` (which implements PocketMine's Sound interface) by using the `VanillaSounds::XXX()` methods.
 
 ```php
 use DiamondStrider1\Sounds\VanillaSounds;
 
 $sound = VanillaSounds::NOTE_BELL();
+$sound->setVolume(2);
+$sound->setPitch(2);
 $world->addSound($position, $sound, $players);
 ```
 

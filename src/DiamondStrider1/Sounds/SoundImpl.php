@@ -15,7 +15,7 @@ use pocketmine\world\sound\Sound;
  *
  * @see VanillaSounds
  */
-final class InternalSound implements Sound
+final class SoundImpl implements Sound
 {
     private float $volume = 1;
     private float $pitch = 1;

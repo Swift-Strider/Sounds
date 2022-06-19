@@ -6,8 +6,8 @@ namespace DiamondStrider1\Sounds;
 
 final class SoundFactory
 {
-    public static function create(string $soundId, float $volume = null, float $pitch = null): InternalSound {
-        $sound = new InternalSound($soundId);
+    public static function create(string $soundId, float $volume = null, float $pitch = null): SoundImpl {
+        $sound = new SoundImpl($soundId);
         if ($volume !== null) {
             $sound->setVolume($volume);
         }

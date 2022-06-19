@@ -110,8 +110,8 @@ EOT);
 foreach ($sounds as $i => $sound) {
     $constSound = soundNameToConstCase($sound);
     fwrite($vanillaSounds, <<<EOT
-        public static function $constSound(): InternalSound {
-            return new InternalSound(SoundIds::$constSound);
+        public static function $constSound(): SoundImpl {
+            return new SoundImpl(SoundIds::$constSound);
         }
 
     EOT . ($i === $soundCount - 1 ? "" : "\n"));
