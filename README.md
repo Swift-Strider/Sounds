@@ -34,8 +34,12 @@ This library also has constants for the ids of sounds, located in `SoundIds`!
 
 ```php
 use DiamondStrider1\Sounds\SoundIds;
+use DiamondStrider1\Sounds\SoundFactory;
 
 $pigStep = SoundIds::MOB_PIG_STEP
+$pigStepSound = SoundFactory::create($pigStep);
+// Not my favorite pig step, but let's play it anyways!
+$world->addSound($position, $pigStepSound, $players);
 ```
 
 *(side note: Don't confuse mob.pig.step with the true pig step music disc music)*
