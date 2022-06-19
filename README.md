@@ -12,6 +12,8 @@ use DiamondStrider1\Sounds\VanillaSounds;
 $sound = VanillaSounds::NOTE_BELL();
 $sound->setVolume(2);
 $sound->setPitch(2);
+$currentVolume = $sound->getVolume();
+$currentPitch = $sound->getPitch();
 $world->addSound($position, $sound, $players);
 ```
 
@@ -21,8 +23,10 @@ You can also use `SoundFactory`, if the sound you want is not registered by this
 use DiamondStrider1\Sounds\SoundFactory;
 
 $sound = SoundFactory::create("my.custom.sound", volume: 1, pitch: 1);
-$anotherSound = SoundFactory::create("my.custom.sound2");
 $world->addSound($position, $sound, $players);
+
+$anotherSound = SoundFactory::create("my.custom.sound2");
+$anotherSound->setVolume(2);
 $world->addSound($position, $anotherSound, $players);
 ```
 
