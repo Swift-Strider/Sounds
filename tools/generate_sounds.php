@@ -7,7 +7,7 @@ declare(strict_types=1);
  */
 function soundNameToConstCase(string $name): string
 {
-    return strtoupper(str_replace('.', "_", $name));
+    return strtoupper(str_replace(['.', '-'], "_", $name));
 }
 
 /**
