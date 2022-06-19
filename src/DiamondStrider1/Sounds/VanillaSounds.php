@@ -322,6 +322,26 @@ final class VanillaSounds
         return new InternalSound(SoundIds::BLOCK_END_PORTAL_EYEPLACE);
     }
 
+    public static function BLOCK_FROGLIGHT_BREAK(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_FROGLIGHT_BREAK);
+    }
+
+    public static function BLOCK_FROGLIGHT_STEP(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_FROGLIGHT_STEP);
+    }
+
+    public static function BLOCK_FROG_SPAWN_BREAK(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_FROG_SPAWN_BREAK);
+    }
+
+    public static function BLOCK_FROG_SPAWN_HATCH(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_FROG_SPAWN_HATCH);
+    }
+
+    public static function BLOCK_FROG_SPAWN_STEP(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_FROG_SPAWN_STEP);
+    }
+
     public static function BLOCK_FURNACE_FIRE_CRACKLE(): InternalSound {
         return new InternalSound(SoundIds::BLOCK_FURNACE_FIRE_CRACKLE);
     }
@@ -370,12 +390,52 @@ final class VanillaSounds
         return new InternalSound(SoundIds::BLOCK_LOOM_TAKE_RESULT);
     }
 
+    public static function BLOCK_MANGROVE_ROOTS_BREAK(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_MANGROVE_ROOTS_BREAK);
+    }
+
+    public static function BLOCK_MANGROVE_ROOTS_STEP(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_MANGROVE_ROOTS_STEP);
+    }
+
     public static function BLOCK_MOSS_BREAK(): InternalSound {
         return new InternalSound(SoundIds::BLOCK_MOSS_BREAK);
     }
 
     public static function BLOCK_MOSS_STEP(): InternalSound {
         return new InternalSound(SoundIds::BLOCK_MOSS_STEP);
+    }
+
+    public static function BLOCK_MUD_BREAK(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_MUD_BREAK);
+    }
+
+    public static function BLOCK_MUD_STEP(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_MUD_STEP);
+    }
+
+    public static function BLOCK_MUDDY_MANGROVE_ROOTS_BREAK(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_MUDDY_MANGROVE_ROOTS_BREAK);
+    }
+
+    public static function BLOCK_MUDDY_MANGROVE_ROOTS_STEP(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_MUDDY_MANGROVE_ROOTS_STEP);
+    }
+
+    public static function BLOCK_MUD_BRICKS_BREAK(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_MUD_BRICKS_BREAK);
+    }
+
+    public static function BLOCK_MUD_BRICKS_STEP(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_MUD_BRICKS_STEP);
+    }
+
+    public static function BLOCK_PACKED_MUD_BREAK(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_PACKED_MUD_BREAK);
+    }
+
+    public static function BLOCK_PACKED_MUD_STEP(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_PACKED_MUD_STEP);
     }
 
     public static function BLOCK_PERMISSIONS_SHIMMER_SHIMMERBLOCK(): InternalSound {
@@ -440,6 +500,82 @@ final class VanillaSounds
 
     public static function BLOCK_SCAFFOLD_PLACE(): InternalSound {
         return new InternalSound(SoundIds::BLOCK_SCAFFOLD_PLACE);
+    }
+
+    public static function BLOCK_SCULK_BREAK(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_SCULK_BREAK);
+    }
+
+    public static function BLOCK_SCULK_BREAK1(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_SCULK_BREAK1);
+    }
+
+    public static function BLOCK_SCULK_CHARGE(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_SCULK_CHARGE);
+    }
+
+    public static function BLOCK_SCULK_PLACE(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_SCULK_PLACE);
+    }
+
+    public static function BLOCK_SCULK_SPREAD(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_SCULK_SPREAD);
+    }
+
+    public static function BLOCK_SCULK_STEP(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_SCULK_STEP);
+    }
+
+    public static function BLOCK_SCULK_CATALYST_BREAK(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_SCULK_CATALYST_BREAK);
+    }
+
+    public static function BLOCK_SCULK_CATALYST_PLACE(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_SCULK_CATALYST_PLACE);
+    }
+
+    public static function BLOCK_SCULK_CATALYST_STEP(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_SCULK_CATALYST_STEP);
+    }
+
+    public static function BLOCK_SCULK_SENSOR_BREAK(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_SCULK_SENSOR_BREAK);
+    }
+
+    public static function BLOCK_SCULK_SENSOR_PLACE(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_SCULK_SENSOR_PLACE);
+    }
+
+    public static function BLOCK_SCULK_SENSOR_SCULK_CLICKING(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_SCULK_SENSOR_SCULK_CLICKING);
+    }
+
+    public static function BLOCK_SCULK_SENSOR_SCULK_CLICKING_STOP(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_SCULK_SENSOR_SCULK_CLICKING_STOP);
+    }
+
+    public static function BLOCK_SCULK_SENSOR_SENSOR_OFF_00(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_SCULK_SENSOR_SENSOR_OFF_00);
+    }
+
+    public static function BLOCK_SCULK_SENSOR_STEP(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_SCULK_SENSOR_STEP);
+    }
+
+    public static function BLOCK_SCULK_SHRIEKER_BREAK(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_SCULK_SHRIEKER_BREAK);
+    }
+
+    public static function BLOCK_SCULK_SHRIEKER_PLACE(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_SCULK_SHRIEKER_PLACE);
+    }
+
+    public static function BLOCK_SCULK_SHRIEKER_SHRIEK(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_SCULK_SHRIEKER_SHRIEK);
+    }
+
+    public static function BLOCK_SCULK_VEIN_BREAK(): InternalSound {
+        return new InternalSound(SoundIds::BLOCK_SCULK_VEIN_BREAK);
     }
 
     public static function BLOCK_SHULKER_BOX_CLOSE(): InternalSound {
@@ -790,6 +926,10 @@ final class VanillaSounds
         return new InternalSound(SoundIds::ITEM_HONEYCOMB_WAX_ON);
     }
 
+    public static function ITEM_HORN_CALL(): InternalSound {
+        return new InternalSound(SoundIds::ITEM_HORN_CALL);
+    }
+
     public static function ITEM_INK_SAC_INK_SAC(): InternalSound {
         return new InternalSound(SoundIds::ITEM_INK_SAC_INK_SAC);
     }
@@ -892,6 +1032,34 @@ final class VanillaSounds
 
     public static function MINECART_INSIDE(): InternalSound {
         return new InternalSound(SoundIds::MINECART_INSIDE);
+    }
+
+    public static function MOB_ALLAY_DEATH(): InternalSound {
+        return new InternalSound(SoundIds::MOB_ALLAY_DEATH);
+    }
+
+    public static function MOB_ALLAY_HURT(): InternalSound {
+        return new InternalSound(SoundIds::MOB_ALLAY_HURT);
+    }
+
+    public static function MOB_ALLAY_IDLE_WITHOUT_ITEM(): InternalSound {
+        return new InternalSound(SoundIds::MOB_ALLAY_IDLE_WITHOUT_ITEM);
+    }
+
+    public static function MOB_ALLAY_IDLE_WITH_ITEM(): InternalSound {
+        return new InternalSound(SoundIds::MOB_ALLAY_IDLE_WITH_ITEM);
+    }
+
+    public static function MOB_ALLAY_ITEM_GIVEN(): InternalSound {
+        return new InternalSound(SoundIds::MOB_ALLAY_ITEM_GIVEN);
+    }
+
+    public static function MOB_ALLAY_ITEM_TAKEN(): InternalSound {
+        return new InternalSound(SoundIds::MOB_ALLAY_ITEM_TAKEN);
+    }
+
+    public static function MOB_ALLAY_THROW(): InternalSound {
+        return new InternalSound(SoundIds::MOB_ALLAY_THROW);
     }
 
     public static function MOB_ARMOR_STAND_BREAK(): InternalSound {
@@ -1282,6 +1450,10 @@ final class VanillaSounds
         return new InternalSound(SoundIds::MOB_FROG_IDLE);
     }
 
+    public static function MOB_FROG_LAY_SPAWN(): InternalSound {
+        return new InternalSound(SoundIds::MOB_FROG_LAY_SPAWN);
+    }
+
     public static function MOB_FROG_LONG_JUMP(): InternalSound {
         return new InternalSound(SoundIds::MOB_FROG_LONG_JUMP);
     }
@@ -1340,6 +1512,10 @@ final class VanillaSounds
 
     public static function MOB_GOAT_EAT(): InternalSound {
         return new InternalSound(SoundIds::MOB_GOAT_EAT);
+    }
+
+    public static function MOB_GOAT_HORN_BREAK(): InternalSound {
+        return new InternalSound(SoundIds::MOB_GOAT_HORN_BREAK);
     }
 
     public static function MOB_GOAT_HURT(): InternalSound {
@@ -2260,6 +2436,90 @@ final class VanillaSounds
 
     public static function MOB_WANDERING_TRADER_YES(): InternalSound {
         return new InternalSound(SoundIds::MOB_WANDERING_TRADER_YES);
+    }
+
+    public static function MOB_WARDEN_AGITATED_(): InternalSound {
+        return new InternalSound(SoundIds::MOB_WARDEN_AGITATED_);
+    }
+
+    public static function MOB_WARDEN_ANGRY_(): InternalSound {
+        return new InternalSound(SoundIds::MOB_WARDEN_ANGRY_);
+    }
+
+    public static function MOB_WARDEN_ATTACK_IMPACT_(): InternalSound {
+        return new InternalSound(SoundIds::MOB_WARDEN_ATTACK_IMPACT_);
+    }
+
+    public static function MOB_WARDEN_DEATH_(): InternalSound {
+        return new InternalSound(SoundIds::MOB_WARDEN_DEATH_);
+    }
+
+    public static function MOB_WARDEN_DIG(): InternalSound {
+        return new InternalSound(SoundIds::MOB_WARDEN_DIG);
+    }
+
+    public static function MOB_WARDEN_EMERGE(): InternalSound {
+        return new InternalSound(SoundIds::MOB_WARDEN_EMERGE);
+    }
+
+    public static function MOB_WARDEN_HEARTBEAT_(): InternalSound {
+        return new InternalSound(SoundIds::MOB_WARDEN_HEARTBEAT_);
+    }
+
+    public static function MOB_WARDEN_HURT_(): InternalSound {
+        return new InternalSound(SoundIds::MOB_WARDEN_HURT_);
+    }
+
+    public static function MOB_WARDEN_IDLE_(): InternalSound {
+        return new InternalSound(SoundIds::MOB_WARDEN_IDLE_);
+    }
+
+    public static function MOB_WARDEN_IDLE_1(): InternalSound {
+        return new InternalSound(SoundIds::MOB_WARDEN_IDLE_1);
+    }
+
+    public static function MOB_WARDEN_LISTENING_(): InternalSound {
+        return new InternalSound(SoundIds::MOB_WARDEN_LISTENING_);
+    }
+
+    public static function MOB_WARDEN_LISTENING_ANGRY_(): InternalSound {
+        return new InternalSound(SoundIds::MOB_WARDEN_LISTENING_ANGRY_);
+    }
+
+    public static function MOB_WARDEN_NEARBY_CLOSER_(): InternalSound {
+        return new InternalSound(SoundIds::MOB_WARDEN_NEARBY_CLOSER_);
+    }
+
+    public static function MOB_WARDEN_NEARBY_CLOSEST_(): InternalSound {
+        return new InternalSound(SoundIds::MOB_WARDEN_NEARBY_CLOSEST_);
+    }
+
+    public static function MOB_WARDEN_NEARBY_CLOSE_(): InternalSound {
+        return new InternalSound(SoundIds::MOB_WARDEN_NEARBY_CLOSE_);
+    }
+
+    public static function MOB_WARDEN_ROAR_(): InternalSound {
+        return new InternalSound(SoundIds::MOB_WARDEN_ROAR_);
+    }
+
+    public static function MOB_WARDEN_SNIFF_(): InternalSound {
+        return new InternalSound(SoundIds::MOB_WARDEN_SNIFF_);
+    }
+
+    public static function MOB_WARDEN_SONIC_BOOM(): InternalSound {
+        return new InternalSound(SoundIds::MOB_WARDEN_SONIC_BOOM);
+    }
+
+    public static function MOB_WARDEN_SONIC_CHARGE(): InternalSound {
+        return new InternalSound(SoundIds::MOB_WARDEN_SONIC_CHARGE);
+    }
+
+    public static function MOB_WARDEN_STEP_(): InternalSound {
+        return new InternalSound(SoundIds::MOB_WARDEN_STEP_);
+    }
+
+    public static function MOB_WARDEN_TENDRIL_CLICKS_(): InternalSound {
+        return new InternalSound(SoundIds::MOB_WARDEN_TENDRIL_CLICKS_);
     }
 
     public static function MOB_WITCH_AMBIENT(): InternalSound {
