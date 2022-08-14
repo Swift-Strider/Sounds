@@ -7,7 +7,7 @@
     "license": "MIT",
 
     "require": {
-        "pocketmine/pocketmine-mp": "^4.7"
+        "pocketmine/pocketmine-mp": "^4.0"
     },
 
     "scripts": {
