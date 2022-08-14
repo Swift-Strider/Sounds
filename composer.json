@@ -2,7 +2,7 @@
     "$schema": "https://getcomposer.org/schema.json",
 
     "name": "diamondstrider1/sounds",
-    "version": "1.2.0",
+    "description": "Sounds API for PocketMine-MP",
     "type": "library",
     "license": "MIT",
 
