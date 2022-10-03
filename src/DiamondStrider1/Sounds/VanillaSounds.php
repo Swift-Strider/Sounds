@@ -306,6 +306,10 @@ final class VanillaSounds
         return new SoundImpl(SoundIds::BLOCK_DRIPSTONE_STEP);
     }
 
+    public static function BLOCK_ENCHANTING_TABLE_ENCHANT(): SoundImpl {
+        return new SoundImpl(SoundIds::BLOCK_ENCHANTING_TABLE_ENCHANT);
+    }
+
     public static function BLOCK_ENDERCHEST_CLOSE(): SoundImpl {
         return new SoundImpl(SoundIds::BLOCK_ENDERCHEST_CLOSE);
     }

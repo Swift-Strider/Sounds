@@ -81,6 +81,7 @@ final class SoundIds
     public const BLOCK_DEEPSLATE_BRICKS_STEP = "block.deepslate_bricks.step";
     public const BLOCK_DRIPSTONE_BREAK = "block.dripstone.break";
     public const BLOCK_DRIPSTONE_STEP = "block.dripstone.step";
+    public const BLOCK_ENCHANTING_TABLE_ENCHANT = "block.enchanting_table.enchant";
     public const BLOCK_ENDERCHEST_CLOSE = "block.enderchest.close";
     public const BLOCK_ENDERCHEST_OPEN = "block.enderchest.open";
     public const BLOCK_END_PORTAL_ENDPORTAL = "block.end_portal.endportal";
