@@ -26,13 +26,13 @@ function slashToPeriods(string $name): string {
 }
 
 /**
- * A generator over all the sound names in pack.zip
+ * A generator over all the sound names in bedrock-samples.zip
  *
  * @return string[]
  */
 function soundNames(): array {
     $zip = new ZipArchive;
-    $zip->open(__DIR__ . "/../pack.zip");
+    $zip->open(__DIR__ . "/../bedrock-samples.zip");
 
     // Many files can correspond to the same sound.
     // Files here won't get ignored for having a number

@@ -1,18 +1,14 @@
 {
-    "$schema": "https://getcomposer.org/schema.json",
-
     "name": "diamondstrider1/sounds",
     "description": "Sounds API for PocketMine-MP",
-    "type": "library",
     "license": "MIT",
-
+    "type": "library",
     "require": {
-        "pocketmine/pocketmine-mp": "^4.0"
+        "pocketmine/pocketmine-mp": "^4.12"
     },
-
     "scripts": {
         "generate_sounds": [
-            "curl https://aka.ms/resourcepacktemplate -L > pack.zip",
+            "curl https://github.com/Mojang/bedrock-samples/archive/refs/tags/v1.19.50.2.zip -L > bedrock-samples.zip",
             "php tools/generate_sounds.php"
         ]
     }
